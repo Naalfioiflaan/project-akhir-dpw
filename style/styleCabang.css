@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif  !important;
+}
+
+.navbar {
+    background-color: #191919;
+}
+
+.ketgam p {
+    font-weight: 1000;
+}
+
+.footer {
+    background-color: #191919;
+}
+
+.footer p {
+    color: #fba40c;
+    font-weight: 600;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fba40c;
+}
