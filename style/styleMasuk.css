@@ -1,17 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif  !important;
+}
+
 body {
     background-color: #f3b363;
 }
 
-.container {
+.kotakLogin {
     background-color: #f9deb1;
     border-radius: 40px 40px 40px 40px ;
 }
 
-p {
-    font-family: 'Poppins', sans-serif;
+.fieldForm {
+    border-color: #fba40c;
+    background-color: rgba(196, 196, 196, 40%);
+    border-radius: 40px;
+    font-weight: bold;
 }
 
-.username {
-    border-color: #fba40c;
-    border-radius: 40px;
+
+.footer {
+    background-color: #191919;
+}
+
+.footer p {
+    color: #fba40c;
+    font-weight: 600;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fba40c;
+}
+
+.punyaAkun p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.punyaAkun a {
+    text-decoration: none;
+    color: #fba40c;
 }
