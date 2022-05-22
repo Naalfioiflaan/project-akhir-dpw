@@ -4,6 +4,61 @@
     font-family: 'Poppins', sans-serif  !important;
 }
 
-body {
-    background-color: #1B1E23; 
+.navbar {
+    background-color: #1b1e23;
+}
+
+.custom-toggler.navbar-toggler{
+    border-color: #191919;
+    
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(251, 164, 12, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-nav li {
+    margin-right: 30px;
+}
+
+.navbar-nav a {
+    font-weight: bold;
+    color: white;
+    
+}
+
+.navbar-nav a:hover {
+    color: #fba40c;
+}
+
+.desktop_isi {
+    background-color: #1b1e23;
+    background-size: cover; 
+}
+
+.mobile_isi {
+    background-color: #1b1e23;
+    background-size: cover; 
+}
+
+.fieldForm {
+    border-color: #c4c4c4;
+    background-color: rgba(196, 196, 196, 70%);
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #191919;
+}
+
+.footer p {
+    color: white;
+    font-weight: 600;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fba40c;
 }

@@ -8,14 +8,185 @@
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="style/styleTentangkami.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;600&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <section>
-        <div>
-            
+    <section class="desktop d-none d-lg-block" style="height:18vh;">
+        <div class="navbar navbar-expand-lg container-fluid" style="border-radius: 0 0 0px 0px; height: 100%; ">
+            <div class="container-fluid">
+                <div class="navbar-brand ms-3" style="margin-bottom: 30px;">
+                    <img src="/images/OlehAN__2_-removebg-preview 3.png" alt="Logo Olehan" height="55px">
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="row" style="margin-bottom: 40px;">
+                    <div class="col-12 align-self-center">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-8 d-flex justify-content-end">
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                        <ul class="navbar-nav mb-2 mb-lg-0">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Beranda</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link active" aria-current="page" href="cari.html" style="margin-left: 30px;">Cari</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="makanan.html">Menu</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link active" aria-current="page" href="cabang.html">Cabang</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link active" aria-current="page" href="#" style="color: #fba40c;">Tentang&nbsp;Kami</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+    
+                                <div class="col-4 d-flex justify-content-end">
+                                    <div class="row d-flex align-items-center">
+                                        <div class="col">
+                                            <a href="/profilpengguna.html">
+                                            <img src="/images/user.png" alt="Profil Pengguna" height="40"> </a>
+                                        </div> 
+                                        <div class="col">
+                                            <a href="/keranjang.html">
+                                            <img src="/images/keranjang.png" alt="Keranjang"></a>
+                                        </div>
+                                        <div class="col">
+                                            <a href="/notifikasi.html">
+                                            <img src="/images/notifikasi.png" alt="Notifikasi"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+
+    <section class="mobile_navbar d-block d-lg-none style="height: 10vh;">
+        <div class="navbar navbar-expand-lg navbar-light container-fluid py-3" style="border-radius: 0 0 0px 0px; height: 100%;">
+            <div class="px-3 row">
+                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="d-flex justify-content-end">
+                <div class="row d-flex align-items-center">
+                    <div class="col">
+                        <a href="/profilpengguna.html">
+                        <img src="/images/user.png" alt="Profil Pengguna" width="45px" style="margin-bottom: 5px;"> </a>
+                    </div> 
+                    <div class="col">
+                        <a href="/keranjang.html">
+                        <img src="/images/keranjang.png" alt="Keranjang" style="margin-bottom: 5px;"></a>
+                    </div>
+                    <div class="col">
+                        <a href="/notifikasi.html">
+                        <img src="/images/notifikasi.png" alt="Notifikasi"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="background-color: #191919; border-radius: 0 0 40px 40px; min-width: 100vw; margin-top: -3rem;" class="pt-5">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 text-left px-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" style="color: #fba40c;">Cari</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="makanan.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cabang.html">Cabang</a>
+                    </li>
+                    <li class="nav-item" style="margin-bottom: 5px;">
+                        <a class="nav-link" href="tentangkami.html">Tentang&nbsp;Kami</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="desktop_isi d-none d-lg-block" style="height: auto; padding-top: 80px; padding-bottom: 120px;">
+            <div class="row">
+                <div class="col-12 align-self-center">
+                    <div class="container-fluid">
+                        <div class="row tulisan" style="margin-left: 100px; margin-right: 500px;">
+                            <p style="font-weight: lighter; color: white;">Toko oleh-oleh yang menyediakan berbagai macam 
+                                menu makanan dan minuman khas dari berbagai daerah di seluruh Indonesia.
+                                Didedikasikan penuh oleh anak-anak bangsa 
+                                sebagai bentuk cinta terhadap tanah air Indonesia
+                            </p>
+                            <p style="color: white; font-weight: bold; font-style: italic;">
+                                OlehAN,&nbsp;
+                                Toko oleh-oleh terbaik, andalan Anda
+                            </p>
+                            <div class="col-6">
+                                <img src="/images/OlehAN__2_-removebg-preview 3.png" alt="Logo OlehAN">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="row mt-5 d-flex justify-content-center">
+                <div class="col identitas d-flex flex-column align-items-center">
+                    <div class="align-items-start">
+                        <div class="col text-center" style="position: relative;">
+                            <input type="name" name="username" id="username" class="form-control fieldForm" style="width: 700px; height: 45px;">
+                            <a href="#">
+                            <img src="/images/icon_cari.png" alt="icon cari" style="position: absolute; right: 19px; top: 6px;"></a>
+                        </div>
+                    </div>
+                    <h3 style="font-weight: 600; color: white; margin-top: 80px">Yuk cari Oleh-Oleh Kesukaanmu !</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mobile_isi d-block d-lg-none" style="height: auto;padding-top: 100px; padding-bottom: 148px;">
+        <div class="container-fluid">
+            <div class="row tulisan" style="text-align: center;">
+                <h1 style="font-weight: 600; color: white;">Cari</h1>
+            </div>
+            <div class="row mt-5 d-flex justify-content-center">
+                <div class="col identitas d-flex flex-column align-items-center">
+                    <div class="align-items-start">
+                        <div class="col text-center" style="position: relative;">
+                            <input type="name" name="username" id="username" class="form-control fieldForm" style="width: 400px; height: 45px;">
+                            <a href="#">
+                            <img src="/images/icon_cari.png" alt="icon cari" style="position: absolute; right: 19px; top: 6px;"></a>
+                        </div>
+                    </div>
+                    <h3 style="font-weight: 600; color: white; margin-top: 80px">Yuk cari Oleh-Oleh Kesukaanmu !</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="height: 11vh;">
+        <div class="footer container-fluid align-middle" style="border-radius: 0px 0px 0 0; height: 100%;">
+            <div class="row align-items-center text-center" style="height: 100%">
+                <div class="col-12 mt-4">
+                    <p>Tentang Kami&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;<span><a href="">FAQ</a></span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="bootstrap.min.js"></script>
+
 </body>
 </html>
