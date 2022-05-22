@@ -35,14 +35,13 @@
 .desktop_isi {
     background-image: url(/images/bgimgcari.png);
     background-size: cover;
+    
 }
 
-.identitas h5 {
-    color: #fba40c;
-    font-weight: bold;
-}
-
-.identitas p {
+.fieldForm {
+    border-color: #c4c4c4;
+    background-color: rgba(196, 196, 196, 70%);
+    border-radius: 40px;
     font-weight: bold;
 }
 
