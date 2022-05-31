@@ -5,8 +5,194 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notifikasi</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style/styleProfil.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;600&display=swap" rel="stylesheet">
+
 </head>
 <body>
+    <section class="desktop d-none d-lg-block" style="height: 10vh;">
+        <div class="navbar navbar-expand-lg container-fluid" style="border-radius: 0 0 40px 40px; height: 100%;">
+            <div class="container-fluid">
+                <div class="navbar-brand ms-3">
+                    <img src="/images/OlehAN__2_-removebg-preview 3.png" alt="Logo Olehan" height="55px">
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="row">
+                    <div class="col-12 align-self-center">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-8 d-flex justify-content-end">
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                        <ul class="navbar-nav mb-2 mb-lg-0>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Beranda</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#" style="margin-left: 30px;">Cari</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Menu</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link active" aria-current="page" href="#">Cabang</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Tentang&nbsp;Kami</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
     
+                                <div class="col-4 d-flex justify-content-end">
+                                    <div class="row d-flex align-items-center">
+                                        <div class="col">
+                                            <a href="/profilpengguna.html">
+                                            <img src="/images/user.png" alt="Profil Pengguna"> </a>
+                                        </div> 
+                                        <div class="col">
+                                            <a href="/keranjang.html">
+                                            <img src="/images/keranjang.png" alt="Keranjang"></a>
+                                        </div>
+                                        <div class="col">
+                                            <a href="/notifikasi.html">
+                                            <img src="/images/notifikasi1.png" alt="Notifikasi" height="40"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mobile_navbar d-block d-lg-none mb-2 style="height: 10vh;">
+        <div class="navbar navbar-expand-lg navbar-light container-fluid py-3" style="border-radius: 0 0 40px 40px; height: 100%;">
+            <div class="px-3 row">
+                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="d-flex justify-content-end">
+                <div class="row d-flex align-items-center">
+                    <div class="col">
+                        <a href="/profilpengguna.html">
+                        <img src="/images/user1.png" alt="Profil Pengguna" width="45px" style="margin-bottom: 5px;"> </a>
+                    </div> 
+                    <div class="col">
+                        <a href="/keranjang.html">
+                        <img src="/images/keranjang.png" alt="Keranjang" style="margin-bottom: 5px;"></a>
+                    </div>
+                    <div class="col">
+                        <a href="/notifikasi.html">
+                        <img src="/images/notifikasi.png" alt="Notifikasi"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="background-color: #191919; border-radius: 0 0 40px 40px; min-width: 100vw; margin-top: -3rem;" class="pt-5">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 text-left px-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cari</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cabang.html">Cabang</a>
+                    </li>
+                    <li class="nav-item" style="margin-bottom: 5px;">
+                        <a class="nav-link" href="#">Tentang&nbsp;Kami</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="desktop_isi d-none d-lg-block" style="height: auto; margin-top: 60px; margin-bottom: 113px;">
+        <div class="container-fluid">
+            <div class="row tulisan" style="text-align: center;">
+                <h4 style="font-weight: 600; margin-bottom: 20px;">Notifikasi</h4>
+            </div>
+            <div class="row mt-5 d-flex justify-content-center">
+                <div class="col-6 identitas d-flex flex-column align-items-end">
+                    <div class="align-items-start">
+                        <h5>Nadira Alifia</h5>
+                        <p>
+                            <span><img src="/images/icon_email.png" alt="email">&nbsp; &nbsp; alifianadira11@gmail.com</span>
+                        <br>
+                            <span><img src="/images/icon_kunci.png" alt="email">&nbsp; &nbsp; ********</span>
+                        <br>
+                            <span><img src="/images/icon_hp.png" alt="email" height="30px;">&nbsp; &nbsp; 0895618102528</span>
+                        </p>
+                        <p><img src="/images/icon_member.png" alt="email" >&nbsp; &nbsp; Member Gold</p>
+                        <br>
+                        <button class="btn fw-bold ms-5" style="width: 82px; background-color: #fba40c; border-radius: 10px 10px 10px 10px;">Edit</button>
+                        <span>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                            <button class="btn fw-bold" style="width: 82px; background-color: #fba40c; border-radius: 10px 10px 10px 10px;">Keluar</button>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-6 px-5">
+                    <img src="/images/avatar.png" alt="Avatar"> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mobile_isi d-block d-lg-none" style="height: auto; margin-top: 60px; margin-bottom: 113px;">
+        <div class="container-fluid">
+            <div class="row tulisan" style="text-align: center;">
+                <h4 style="font-weight: 600; margin-bottom: 10px;">Profil Pengguna</h4>
+            </div>
+            <div class="row mt-5 d-flex justify-content-center">
+                <div class="col-6 px-5">
+                    <img src="/images/avatar.png" alt="Avatar"> 
+                </div>
+                <div class="col-12 identitas d-flex flex-column align-items-center pt-5">
+                    <div class="align-items-start">
+                        <h5>Nadira Alifia</h5>
+                        <p>
+                            <span><img src="/images/icon_email.png" alt="email">&nbsp; &nbsp; alifianadira11@gmail.com</span>
+                        <br>
+                            <span><img src="/images/icon_kunci.png" alt="email">&nbsp; &nbsp; ********</span>
+                        <br>
+                            <span><img src="/images/icon_hp.png" alt="email" height="30px;">&nbsp; &nbsp; 0895618102528</span>
+                        </p>
+                        <p><img src="/images/icon_member.png" alt="email" >&nbsp; &nbsp; Member Gold</p>
+                        <br>
+                        <button class="btn fw-bold ms-5" style="width: 82px; background-color: #fba40c; border-radius: 10px 10px 10px 10px;">Edit</button>
+                        <span>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                            <button class="btn fw-bold" style="width: 82px; background-color: #fba40c; border-radius: 10px 10px 10px 10px;">Keluar</button>
+                        </span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section style="height: 10vh; margin-top: 4vh;">
+        <div class="footer container-fluid align-middle" style="border-radius: 40px 40px 0 0; height: 100%;">
+            <div class="row align-items-center text-center" style="height: 100%">
+                <div class="col-12 mt-4">
+                    <p><span><a href="">Tentang Kami</a></span> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;<span><a href="">FAQ</a></span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="bootstrap.min.js"></script>
+
 </body>
 </html>
