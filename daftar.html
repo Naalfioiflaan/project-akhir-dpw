@@ -15,37 +15,34 @@
     <section class="desktop d-none d-lg-block" style="height: 86vh;">
         <div class="container" style="height: 86vh;">
             <div class="row justify-content-start" style="height: 86vh;">
-                <div class="col-3 mt-5">
+                <div class="col-2 mt-4">
                     <img src="images/OlehAN__2_-removebg-preview 3.png" alt="Logo Olehan">
                 </div>
-
-                <div class="col-5 align-self-center ms-5">
+                <div class="col-8 align-self-center ms-5">
                     <div class="card kotakLogin px-3 pt-5 pb-2">
                         <form>
                             <div class="container">
                                 <div class="row justify-content-center align-items-center mb-4">
-                                    <div class="col-8">
+                                    <div class="col-12 text-center">
                                         <h4 style="font-weight: 600;">Daftar Akun Baru</h4>
                                     </div>
-                                    <div class="col-12 mt-5">
+                                </div>
+                                <div class="row justify-content-center align-items-center mb-4 mt-5">
+                                    <div class="col-6">
                                         <label for="namalengkap" class="form-label" style="font-weight: 600;">Nama Lengkap</label>
                                         <input type="name" name="namalengkap" id="namalengkap" class="form-control fieldForm">
                                     </div>
-                                </div>
-                                <div class="row justify-content-center align-items-center mb-4">
-                                    <div class="col-12">
+                                    <div class="col-6">
                                         <label for="username" class="form-label" style="font-weight: 600;">Username</label>
                                         <input type="name" name="username" id="username" class="form-control fieldForm">
                                     </div>
                                 </div>
                                 <div class="row justify-content-center align-items-center mb-4">
-                                    <div class="col-12">
+                                    <div class="col-6">
                                         <label for="email" class="form-label" style="font-weight: 600;">Email</label>
                                         <input type="name" name="email" id="email" class="form-control fieldForm">
                                     </div>
-                                </div>
-                                <div class="row justify-content-center align-items-center mb-4">
-                                    <div class="col-11">
+                                    <div class="col-5">
                                         <label for="password" class="form-label" style="font-weight: 600;">Password</label>
                                         <input type="password" name="password" id="password" class="form-control fieldForm">
                                     </div>
@@ -54,7 +51,11 @@
                                     </div>
                                 </div>
                                 <div class="row justify-content-center align-items-center mb-4">
-                                    <div class="col-11">
+                                    <div class="col-6">
+                                        <label for="hp" class="form-label" style="font-weight: 600;">No. HP</label>
+                                        <input type="name" name="hp" id="hp" class="form-control fieldForm">
+                                    </div>
+                                    <div class="col-5">
                                         <label for="konfirmasi" class="form-label" style="font-weight: 600;">Konfirmasi Password</label>
                                         <input type="password" name="konfirmasi" id="konfirmasi" class="form-control fieldForm">
                                     </div>
@@ -79,6 +80,7 @@
                                 <div class="row text-center punyaAkun">
                                     <p>Sudah punya akun ? <span><a href="masuk.html">Masuk sekarang</a></span></p>
                                 </div>
+                            </div>
                             </div>
                         </form>
                     </div>
@@ -159,7 +161,7 @@
         </div>
     </section>
 
-    <section style="height: 12vh; margin-top: 85vh;">
+    <section class="desktop d-none d-lg-block" style="height: 11vh; margin-top: 3vh;">
         <div class="footer container-fluid align-middle" style="border-radius: 40px 40px 0 0; height: 100%;">
             <div class="row align-items-center text-center" style="height: 100%">
                 <div class="col-12 mt-4">
@@ -168,6 +170,17 @@
             </div>
         </div>
     </section>
+
+    <section class="mobile d-lg-none d-block" style="height: 11vh; margin-top: 48vh;">
+        <div class="footer container-fluid align-middle" style="border-radius: 40px 40px 0 0; height: 100%;">
+            <div class="row align-items-center text-center" style="height: 100%">
+                <div class="col-12 mt-4">
+                    <p><span><a href="">Tentang Kami</a></span>&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;<span><a href="">FAQ</a></span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
     <script src="bootstrap.min.js"></script>
     <script src="script/daftar.js"></script>
 </body>
