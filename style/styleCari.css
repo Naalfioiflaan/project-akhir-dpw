@@ -33,13 +33,13 @@
 }
 
 .desktop_isi {
-    background-image: url("images/bgimgcari.png");
+    background-image: url(/images/bgimgcari.png);
     background-size: cover; 
 }
 
 .mobile_isi {
-    background-image: url("images/bgimgcari.png");
-    background-size: cover; 
+    background-image: url(/images/bgimgcari.png);
+    background-size: contain; 
 }
 
 .fieldForm {
